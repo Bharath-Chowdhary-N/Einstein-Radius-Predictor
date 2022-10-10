@@ -6,7 +6,7 @@
 
 ## What it does?
 
-Einstein Radius (in arc sec) can be predicted for input image
+Einstein Radius (in arc sec) can be predicted for input image of shape (101x101x1). 
 
 ## True vs Predicted ER
 ![ER_prediction_img](https://user-images.githubusercontent.com/32049247/194917707-c61033ee-a933-4f9e-b601-fc0af2458a6c.png)
