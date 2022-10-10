@@ -1,5 +1,9 @@
 # Einstein-Radius-Predictor
 
+## Background
+
+   We have trained a DenseNet model KiDS LRGs superimposed by simulated strong lenses (like arcs, rings etc.,)   
+
 ## What it does?
 
 Einstein Radius (in arc sec) can be predicted for input image
