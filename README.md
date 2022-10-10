@@ -2,7 +2,10 @@
 
 ## Background
 
-   We have trained a DenseNet model KiDS LRGs superimposed by simulated strong lenses (like arcs, rings etc.,)   
+   We have trained a DenseNet model KiDS LRGs superimposed by simulated strong lenses (like arcs, rings etc.,). Since we know the Eisntein Radius of simulated lenses, I have trained the DenseNet-BC-121 model as a regression problem for the input images of 101x101x1. So, the input is an image of dimension 101,101,1 and the outrput is a single float value. This is developed for KiDS (Kilo Degree Survey) and in future can be implemented for Euclid.
+
+## For what it is developed for?
+   For lens modelling, the Einstein Radius has to initialized as parameter. Good initial parameter value can be really helpful. Hence, we developed this code which enables that Einstein Radius can be predicted the found lens candidate and can be used as the initial parameter guess.
 
 ## What it does?
 
