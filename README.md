@@ -18,7 +18,8 @@ Einstein Radius (in arc sec) can be predicted for input image of shape (101x101x
 
 ## Images
 
-Image Data can be requested to us. We will provide a drive link upon request
+Image Data can be requested to us. We will provide a drive link upon request.
+A sample of 5 images has been added as Sample_Einstein_radius_array.txt. Thae array is of shape (5,101*101). You have to first reshape this array into (5,101,101,1) before using in the model.
 (contact: b.c.nagam@rug.nl)
 
 ### Good Predictions
